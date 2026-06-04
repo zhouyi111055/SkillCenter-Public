@@ -203,3 +203,16 @@ AI Agent Skills
 ```
 
 The repository should serve as the central public skill library for all future projects.
+
+## gpt-image2-ppt-skills
+
+Path:
+
+`/gpt-image2-ppt-skills/`
+
+Usage for Web Codex:
+
+When creating editable PowerPoint from an image, first read this folder and refer to its prompt, layout rules, template clone logic, and PPT generation examples.
+
+Do not output full-slide screenshots.
+Use editable PowerPoint elements such as text boxes, shapes, tables, lines, arrows, and SVG icons.
