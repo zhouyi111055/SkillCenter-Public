@@ -216,3 +216,25 @@ When creating editable PowerPoint from an image, first read this folder and refe
 
 Do not output full-slide screenshots.
 Use editable PowerPoint elements such as text boxes, shapes, tables, lines, arrows, and SVG icons.
+
+# Image to Editable PPT for Web Codex
+
+Before generating PPTX, read:
+
+`/gpt-image2-ppt-skills/`
+
+Use it as reference for:
+- image layout analysis
+- template clone logic
+- editable PPT generation
+- style restoration
+- shape reconstruction
+
+Requirements:
+1. Generate editable PPTX.
+2. Do not use one full-page image as slide background.
+3. Recreate text as text boxes.
+4. Recreate rectangles, lines, arrows, cards, tables, and icons as editable objects.
+5. Keep original layout, spacing, color, and hierarchy as close as possible.
+6. Prefer PptxGenJS or python-pptx.
+7. Output final `.pptx` file.
